@@ -1,0 +1,22 @@
+html, body ,#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 6.47rem;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+div{
+  box-sizing: border-box;
+}
+input, h1, h2, h3, h4, p {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+ul,li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+

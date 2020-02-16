@@ -1,0 +1,296 @@
+@import "reset";
+
+html {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  // font-size: 20px!important;
+}
+
+html,
+body,
+#app {
+  //background-color: #f5f5f5;
+}
+
+.clamp1 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.clamp2 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.yichu1,.yichu2 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.yichu1{
+  -webkit-line-clamp:1
+}
+.yichu2 {
+  -webkit-line-clamp: 2;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.iconfont {
+  // color: #fff;
+  font-size: 18px;
+}
+
+.no_border_input {
+  outline: none;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+// 改变头部样式
+* {
+  font-family: 'pingFangSC-Medium';
+}
+
+.h100 {
+  height: 100%;
+}
+
+.mr-r5 {
+  margin-right: 5px;
+}
+
+.border-radius {
+  border-radius: 4px;
+}
+
+// ul{
+//   font-size: 0px;
+// }
+
+/*向右浮动*/
+.fl-r {
+  float: right;
+}
+
+.bu-mr-10 {
+  margin-right: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*宽度*/
+.w100 {
+  width: 100%;
+}
+
+/*高度*/
+.h100 {
+  height: 100%;
+}
+
+/*外边距清零*/
+.remove-margin-l {
+  margin-left: 0 !important;
+}
+
+.remove-margin-r {
+  margin-right: 0 !important;
+}
+
+.remove-margin-b {
+  margin-bottom: 0 !important;
+}
+
+.remove-margin-t {
+  margin-top: 0 !important;
+}
+
+.remove-margin {
+  margin: 0 !important;
+}
+
+/*相对定位*/
+.relative {
+  position: relative;
+}
+
+/*内边距清零*/
+.remove-padding-l {
+  padding-left: 0 !important;
+}
+
+.remove-padding-r {
+  padding-right: 0 !important;
+}
+
+.remove-padding-b {
+  padding-bottom: 0 !important;
+}
+
+.remove-padding-t {
+  padding-top: 0 !important;
+}
+
+.remove-padding {
+  padding: 0 !important;
+}
+
+/*常用的padding样式*/
+.padding-tb10 {
+  padding: 10px 0;
+}
+
+.padding-lr10 {
+  padding: 0 10px;
+}
+
+/*公共样式*/
+.margin-l5 {
+  margin-left: 5px;
+}
+
+
+/*字体大小*/
+.font14 {
+  font-size: 14px;
+}
+
+/*改变display属性为flex*/
+.dis-flex {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.flex-r {
+  -webkit-box-orient: horizontal !important;
+  -webkit-flex-direction: row !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+
+.flex-v {
+  -webkit-box-orient: vertical !important;
+  -webkit-flex-direction: column !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+
+.flex-1 {
+  -webkit-box-flex: 1 !important;
+  -webkit-flex: 1 !important;
+  -ms-flex: 1 !important;
+  flex: 1 !important;
+}
+
+.flex-align-center {
+  -webkit-box-align: center !important;
+  -webkit-align-items: center !important;
+  -moz-align-items: center !important;
+  -ms-align-items: center !important;
+  -o-align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.flex-justify-center {
+  -webkit-box-pack: center !important;
+  -webkit-justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.flex-between-justify {
+  -webkit-box-pack: justify !important;
+  -webkit-justify-content: space-between !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+
+/*竖直方向的对齐方法*/
+.align-top {
+  vertical-align: top;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+/*浮动方式*/
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+/*改变display属性*/
+.inline-block {
+  display: inline-block;
+}
+
+
+
+
+/*修改vantUI样式*/
+.van-search .van-cell {
+  border-radius: 20px !important;
+}
+
+.van-cell__left-icon {
+  line-height: 30px !important;
+}
+
+.van-field__control {
+  line-height: 30px !important;
+}
+
+// 返回按钮的颜色
+.van-nav-bar .van-icon {
+  color: #828282 !important;
+  font-size: 16px;
+}
+
+.van-nav-bar__text {
+  color: #e71b1b !important;
+}
+
+.van-dialog__message--has-title {
+  text-align: center;
+}
+
+
+.van-toast {
+  background-color: rgba(0, 0, 0, .5) !important;
+}
+
+.padding-tb10 {
+  padding: 10px 0;
+}
+
+.to_stop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important
+}
